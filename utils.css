@@ -1,0 +1,148 @@
+.top-header-text{
+    font-size:0.82rem ;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    background-color: #183b54;
+    /* position: absolute; */
+}
+
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.company-logo img{
+    width: 160px;
+}
+
+.main-nav{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
+
+}
+
+.secondary-button{
+    padding: 12px 24px;
+    border: 1px solid rgb(151, 151, 239);
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.primary-button{
+    padding: 12px 24px;
+    background-color: var(--accent-color);
+    color: white !important;
+    border: 1px solid rgb(151, 151, 239);
+    border-radius: 4px;
+    font-weight: 500;
+
+}
+
+.main-header{
+    gap: 60px;
+    justify-content: center;
+}
+
+.left-header{
+    margin-bottom: 100px;
+}
+
+.left-header p{
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.left-header a{
+    margin-top: 40px;
+}
+
+.right-header img{
+    width: 600px;
+}
+
+/* THE MAIN SECTION STARTS FROM HERE */
+
+.bg-color{
+    background-color: #183b54;
+}
+
+
+.main-section{
+    gap: 40px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.left-section p{
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.left-section h3{
+    margin-top: 30px;
+    
+}
+
+.left-section a{
+    margin-top: 30px;
+    
+}
+
+.list-flex{
+    gap: 50px;
+    margin-top: 10px;
+}
+
+.list-flex ul li{
+    color: var(--secondary-text-color);
+    list-style: circle;
+}
+
+.list-left-flex ul li{
+    line-height: 40px;
+}
+
+.list-right-flex ul li{
+    line-height: 40px;
+}
+
+
+/* This is the jright side of main section */
+.right-section img{
+    width: 600px;
+}
+
+
+/* FOOTER */
+
+.footer-bg{
+    background-color: #e8e8e9;
+}
+
+
+.footer-links{
+    flex-direction: column;
+
+}
+
+.footer-links{
+    line-height: 34px;
+}
+.footer-container{
+    padding: 40px 10px 40px 10px;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
